@@ -1,0 +1,114 @@
+
+/* Media Queries */
+
+@media (max-width: 575px) {
+/*header*/    
+.icono_whatsaap {
+    display: inline-block;
+}
+/*/header*/  
+
+/*Contenido principal y espacio publicitario*/  
+.contenedor_publicidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220,53,69);
+    transform: rotate(-90deg);
+}
+.sub_Contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*/Contenido principal y espacio publicitario*/ 
+
+/*Footer*/ 
+.texto_horarios{
+    text-align: center;
+}
+.footer_redes{
+    text-align: center;
+    margin-top: 1rem;
+}
+.centrar_copyright{
+    text-align: center;
+}
+/*Footer*/ 
+
+}
+
+
+/* Pantallas de 576px de ancho o más */
+
+@media (min-width: 576px) {}
+
+
+/* Pantallas de 768px de ancho o más */
+
+@media (min-width: 768px) {}
+
+
+/* Pantallas de 992px de ancho o más */
+
+@media (min-width: 992px) {}
+
+
+/* Pantallas de 1200px de ancho o más */
+
+@media (min-width: 1200px) {
+
+    /* header*/
+    .icono_whatsaap {
+        display: inline-block;
+        position: fixed;
+        left: 1rem;
+        top: 0.7rem;
+    }
+    /* /header*/
+    /*contenido principal y espacio publicitario*/
+    .sub_Contenedor{
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .contenedor_publicidad{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(220,53,69);
+        padding-left: 0.5rem;
+    }
+    /*/contenido principal y espacio publicitario*/
+    /*Footer*/
+
+    .texto_horarios{
+        margin-left: 1rem;
+        margin-top: 1rem;
+
+    }
+    .footer_redes{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .centrar_copyright{
+        text-align: center;
+
+    }
+
+    .formulario{
+        margin-top: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    /*/Footer*/
+}
+
+
+/* Pantallas de 1400px de ancho o más */
+
+@media (min-width: 1400px) {}
