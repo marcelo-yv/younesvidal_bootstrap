@@ -109,7 +109,10 @@
 .contenido_nosotros{
     margin: 2rem;
 }
-
+.contenido_informativo{
+    margin: 2rem;
+    padding-bottom: 2rem;
+}
 }
 
 
